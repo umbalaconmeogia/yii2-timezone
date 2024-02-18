@@ -1,0 +1,27 @@
+{
+    "name": "umbalaconmeogia/yii2-worldclock",
+    "description": "Display date time in multiple timezones, using for scheduling meeting.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "timezone",
+        "scheduling"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tran Trung Thanh",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6",
+		"umbalaconmeogia/yii2-batsg": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "umbalaconmeogia\\simpledatasystem\\": "src/"
+        }
+    }
+}
